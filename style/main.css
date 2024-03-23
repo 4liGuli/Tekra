@@ -49,15 +49,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
-
 header nav a {
   color: #000;
   text-decoration: none;
   margin: 20px;
 }
-
-
 header nav {
   display: none;
  
@@ -92,6 +88,7 @@ section div p{
 .introduction-left-side p{
   color: #666;
 }
+
 section div .book-a-call{
   color: #fff;
   background: #000;
@@ -118,10 +115,6 @@ section .introduction-left-side img{
 
 
 
-
-
-
-
 .company-logo div {
   display: block;
   justify-content: center;
@@ -129,20 +122,47 @@ section .introduction-left-side img{
   align-items: center;
   
 }
-.company-logo div img{
+Services-side nav{
   margin: 10px;
 }
 
 
 
 
+.Services-logo .Servicesadd spann {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
 
+
+.Services-logo .Servicesadd h2 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+.Services-side nav {
+  display: block;
+}
+
+
+
+section div spann{
+  color: #FF5E69;
+}
+.Servicesadd p{
+  color: #666;
+}
 
 
 
 @media(min-width:768px) {
   .fa-bars {
-    display: block
+    display: none !important
   }
   header nav {
     display: flex;
@@ -159,36 +179,34 @@ section .introduction-left-side img{
     font-size: 15px;
     margin-top: 27px;
   }
-  section div .book-a-call{
-    color: #fff;
-    background: #000;
-    text-decoration: none;
-    display: inline-flex;
-    width: 151px;
-    height: 58px;
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 45px;
-  }
-  section div .download-cv{
-    color: #000;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-top: 45px;
-  }
-  section .introduction-left-side img{
-    margin-left: 15px;
-  }
   .company-logo div {
     display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-left: 15px;
-    width: 768px;
-    height: 252px;
+    width: 100%;
 
+  }
+  .company-logo div img{
+    margin: 45px;
+  } 
+
+  .Services-logo div spann{
+    font-size: 22px;
+  }
+  .Services-logo div h2{
+    font-size: 54px;
+  }
+  .Services-side {
+
+    display: flex;
+    width: 100%;
+  }
+  .Services-side nav {
+    margin:24px;
+  }
+  .Services-side nav h5{
+    font-size: 24px;
+  }
+  .Services-side nav p{
+    font-size: 16px;
   }
 }
 
@@ -197,17 +215,10 @@ section .introduction-left-side img{
 
 
 
-@media(min-width:1280px){
+
+@media(min-width:992px){
   .fa-bars {
     display: none !important
-  }
-  header nav {
-    display: flex;
-  }
-  section{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 72px;
   }
   section div h1{
     font-size: 72px;
@@ -219,38 +230,37 @@ section .introduction-left-side img{
   .introduction-right-side{
     width: 500px;
   }
-  section div .book-a-call{
-    color: #fff;
-    background: #000;
-    text-decoration: none;
-    display: inline-flex;
-    width: 151px;
-    height: 58px;
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 45px;
-    
-  }
-  section div .download-cv{
-    color: #000;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-top: 45px;
-  }
-  section .introduction-left-side img{
-    margin-left: 15px;
-  }
   .company-logo div {
     display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-left: 70px;
-    width: 1280px;
-    height: 252px;
+    width: 100%;
+
   }
   .company-logo div img{
     margin: 45px;
+  } 
+
+  .Services-logo div spann{
+    font-size: 22px;
+  }
+  .Services-logo div h2{
+    font-size: 54px;
+  }
+  .Services-side {
+    
+    display: flex;
+    width: 100%;
+  }
+  .Services-side nav {
+    margin:85px;
+  }
+  .Services-side nav h5{
+    font-size: 24px;
+  }
+  .Services-side nav p{
+    font-size: 16px;
   }
 }
+
+
+
+
